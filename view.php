@@ -29,6 +29,10 @@
                 <?php
                 session_start();
                 if(isset($_SESSION['students'])) {
+                    usort($_SESSION['students'], function($a, $b) {
+                        return $a['nome'] <=> $b['nome'];
+                    });
+
                     foreach($_SESSION['students'] as $key => $student) {
                         echo "<tr>";
                         echo "<td>".$student['nome']."</td>";
