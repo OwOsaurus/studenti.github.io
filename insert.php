@@ -19,7 +19,7 @@
                     </div>
                     <div class="form-group">
                         <label for="class">Classe</label>
-                        <select class="form-select" name="classe" aria-label="Default select example" >
+                        <select class="form-select" name="classe" aria-label="Default select example" required>
                             <option selected></option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="form-group">
                         <label for="section">Sezione</label>
-                        <select class="form-select" name="sezione" aria-label="Default select example" >
+                        <select class="form-select" name="sezione" aria-label="Default select example" required>
                             <option selected></option>
                             <option value="A">A</option>
                             <option value="B">B</option>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="form-group">
                         <label for="course">Corso</label>
-                        <select class="form-select" name="corso" aria-label="Default select example" >
+                        <select class="form-select" name="corso" aria-label="Default select example" required>
                             <option selected></option>
                             <option value="SIA">SIA</option>
                             <option value="AFM">AFM</option>
